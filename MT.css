@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-style:solid;
+    border-radius: 0px;
+    position:sticky;
+    top: 0;
+}
+
+#content {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin-top: 20px;
+}
+
+#menu, #details {
+    margin: 20px;
+}
+
+#menu ul {
+
+    list-style:circle;
+    padding: 0;
+    color:rgb(0, 23, 100);
+
+}
+
+#menu ul li {
+    
+    margin-bottom: 5px;
+    color: #4CAF50;
+   
+}
+#menu h2{
+    color:darkgreen;
+}
+
+.service-details {
+    display: none;
+    color: darkgreen;
+}

@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #89f3e3;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#menu, #info {
+    margin: 20px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu ul li {
+    margin-bottom: 5px;
+}
+
+.technique-info {
+    display: none;
+}
+#menu1{
+    width: 700px;
+    height: 700px;
+    border-radius: 8px;
+    background-image: url('JapaneseAcupuncture.avif');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:right;
+}
+#menu2{
+    width: 700px;
+    height: 900px;
+    border-radius: 8px;
+    background-image: url('Moxibustion.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:right ;
+}

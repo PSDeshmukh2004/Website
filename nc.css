@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* h1{
+    background-color: darkgrey;
+    color: darkgreen;
+    text-align:center ;
+    padding: 30px;
+} */
+
+header {
+    background-color: snow;
+    color: darkgreen;
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    /* background-color:cornsilk;
+    color:darkgreen; */
+    text-align: center;
+    border-style: dotted;
+    border-radius: 70px;
+  
+}
+ul{
+
+    color:darkgreen;
+    text-align:left ;
+    
+}
+li{
+    list-style: none;
+    font-size: 15px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#menu, #info {
+    margin: 20px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu ul li {
+    margin-bottom: 5px;
+}
+
+.topic-info {
+    display: none;
+}
+.bg{
+    background-image: url('Cancer.jpeg'), url('Diabetes.webp'), url('Hypertension.jpeg');
+    background-repeat:space;
+
+}
+
+ #Topic1{
+    width: 900px;
+    height: 900px;
+    color: snow;
+    
+    border-radius: 8px;
+    background-image: url('Cancer.jpeg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:right ;
+    
+}
+#Topic2{
+    width: 900px;
+    height: 900px;
+    color: snow;
+ 
+    border-radius: 8px;
+    background-image: url('Diabetes.webp');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:right ;
+    
+}
+#Topic3{
+    width: 880px;
+    height: 900px;
+    color: snow;
+
+    border-radius: 8px;
+    background-image: url('Hypertension.jpeg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:right ;
+     
+} 
+
+
+

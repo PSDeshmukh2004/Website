@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Massage Therapy</title>
+    <link rel="stylesheet" href="MT.css">
+    <style>
+        body {
+            /* Set the background image */
+            background-image: url('Background_M.jpg');
+            /* Set background size and repeat properties */
+            background-size: cover; /* Adjust as needed */
+            background-repeat: no-repeat; /* Adjust as needed */
+        }
+    </style>
+</head>
+<body>
+    <script>src ="MT.js"</script>
+    <header>
+        <h1>Massage Therapy</h1>
+    </header>
+    <div id="content">
+        <div id="menu">
+            <h2>Services Details</h2>
+            <!-- <nav> -->
+            <ul>
+                <li><a href="#" onclick="showService('service1')">Swedish Massage</a></li>
+                <li><a href="#" onclick="showService('service2')">Deep Tissue Massage</a></li>
+                <li><a href="#" onclick="showService('service3')">Hot Stone Massage</a></li>
+            </ul>
+            <!-- </nav> -->
+        </div>
+        <div id="details">
+            <!-- <h2>Service Details</h2> -->
+            <div id="service1" class="service-details">
+                <h3>Swedish Massage</h3>
+                <p>A relaxing massage using long, gliding strokes, kneading, and gentle movements to promote relaxation and relieve tension.</p>
+                <img src="swedish massage.webp">
+            </div>
+            <div id="service2" class="service-details">
+                <h3>Deep Tissue Massage</h3>
+                <p>A therapeutic massage focusing on deeper layers of muscles and connective tissue to release chronic muscle tension and knots.</p>
+                <img src="deep tissue massage.jpg">
+            </div>
+            <div id="service3" class="service-details">
+                <h3>Hot Stone Massage</h3>
+                <p>A massage technique using smooth, heated stones placed on specific parts of the body to deeply relax muscles and improve circulation.</p>
+                <img src="Hot stone massage.png">
+            </div>
+        </div>
+    </div>
+    <script src="MT.js"></script>
+</body>
+</html>
